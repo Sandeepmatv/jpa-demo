@@ -9,13 +9,13 @@ pipeline {
 
     stage('Test') {
       steps {
-        sh 'sh\'mvn Test\''
+        sh '\'mvn Test\''
       }
     }
 
     stage('Package') {
       steps {
-        sh 'sh \'mvn package\''
+        sh '\'mvn package\''
       }
     }
 
